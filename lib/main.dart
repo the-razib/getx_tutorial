@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:getx_tutorial/home_page.dart';
+import 'package:getx_tutorial/screen/food_item_getx.dart';
+import 'package:getx_tutorial/screen/food_item_setstate_screen.dart';
+import 'package:getx_tutorial/screen/home_page.dart';
 
 void main(){
   runApp(GetxTutorial());
@@ -13,7 +15,7 @@ class GetxTutorial extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: FoodItemGetx(),
     );
   }
 }
